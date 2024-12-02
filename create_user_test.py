@@ -7,7 +7,7 @@ def get_user_body(first_name):
     current_body = data.user_body.copy()
     # Se cambia el valor del parámetro firstName
     current_body["firstName"] = first_name
-    # Se devuelve un nuevo diccionario con el valor firstName requerido
+    # devuelve un nuevo diccionario con el valor firstName requerido
     return current_body
 
 # Prueba 1. Creación de un nuevo usuario o usuaria
